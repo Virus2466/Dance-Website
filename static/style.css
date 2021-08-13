@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+    /* font-family: 'Pacifico', cursive; */
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    margin-right: 30px;
+
+}
+#logo img{
+    height: 51px;
+    filter: invert(1);
+}
+
+#navbarlol{
+    background-color:rgb(0, 0, 0);
+    padding:12px 2px;
+    font-family: 'Satisfy', cursive;
+    display: flex;
+
+    /* font-size: 21px; */
+}
+
+#navbarlol ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#navbarlol li{
+    list-style: none;
+}
+
+
+#navbarlol li  a{
+    text-decoration: none;
+    padding: 10px 35px;
+    color: white;
+    font-size: 29px;
+}
+
+#navbarlol li  a:hover{
+    text-decoration: none;
+    padding: 10px 35px;
+    color: rgb(238, 151, 151);
+    /* font-size: 1rem; */
+}
+
+#missionsection{
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+#missionsection h3{
+    color: rgb(235, 19, 19);
+    text-align: center;
+    padding: 25px;
+    font-family: 'Satisfy', cursive;
+}
+.card{
+    /* border: 2px solid black; */
+    border-radius: 4px;
+    width: 30%;
+    margin:14px 30px;
+    height: 261px;
+    display: inline-block;
+}
+.card h4{
+    text-align: center;
+    margin: 2px;
+    font-family: 'Festive', cursive;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img{
+    height: 179px;
+    padding: 0px 14px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    font-family: 'Satisfy', cursive;
+}
+.card:hover{
+    background:#fff;
+    box-shadow: 2px 2px 15px 0 rgba(135,135,135, 0.4);
+    transition: all 0.5s ease 0s;
+}
+
+
+
+
+
+#introSection{
+    flex-direction: column;
+    font-family: 'Satisfy', cursive;
+    font-size: 55px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 500px;
+    background-color: red;
+    
+}
+
+#sponsor{
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    font-size: 23px;
+
+}    
+#sponsor h2{ 
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Satisfy', cursive;
+    
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spimage{
+    height: 193px;
+    padding-right: 192px;
+    align-items: center;
+    margin:22px;
+}
+.spimage:hover{
+    background:rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px 0 rgba(135,135,135, 0.4);
+    transition: all 0.5s ease 0s;
+}
+
+
+
+#footersec{
+    height: 62px;
+    background-color: rgb(255, 43, 43);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
+    
+
+
+}
+.small{
+    font-size: 23px;
+    padding: 5px;
+}

@@ -1,0 +1,63 @@
+//- index.pug
+doctype html
+html
+  head
+    title Virus Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbarlol
+                 ul 
+                  div#logo  
+                      img(src="/static/img/logo.png")
+                        | 
+                  li #[a(href="/") Home]
+                  li #[a(href="/") About]
+                  li #[a(href="/") Contact us]
+                  li #[a(href="/") Services]
+                  li #[a(href="/") Class Info]
+
+    section#introSection 
+      div Welcome to Virus Dance Academy
+      div.small Eat Sleep Dance Repeat
+
+    section#missionsection 
+      h3 Our mission
+      div.card 
+        h4 Dance like You Want
+        div.card-box 
+          div.card-img 
+            img(src="static/img/card12.png")
+          div.card-content 
+            p This is the best academy in the entire universe 
+
+      div.card 
+        h4 Dance Perfection
+        div.card-box 
+          div.card-img 
+            img(src="static/img/card13.png")
+          div.card-content 
+            p This is the best academy in the entire universe   
+
+      div.card 
+        h4 Expert Teaching
+        div.card-box 
+          div.card-img 
+            img(src="static/img/card14.png")
+          div.card-content 
+            p This is the best academy in the entire universe    
+
+    section#sponsor 
+      h2 Our Sponsors
+        div.sponsors 
+          img(src="/static/img/spon1.png"  class="spimage")
+          img(src="/static/img/spon2.png"  class="spimage")
+          img(src="/static/img/spon3.png"  class="spimage")
+    footer#footersec 
+      | Copyright © 2021 VirusAcademy.com  
+
+    
+    script
+      include ../static/script.js
+
+     
